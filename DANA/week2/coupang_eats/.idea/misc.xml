@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/joowo/3rd_UMC_Android_C/DANA/coupang_eats/app/src/main/res/layout/search_mara.xml" value="0.1" />
+        <entry key="..\:/Users/joowo/3rd_UMC_Android_C/DANA/coupang_eats/app/src/main/res/layout/search_menu.xml" value="0.1" />
+        <entry key="..\:/Users/joowo/3rd_UMC_Android_C/DANA/week2/coupang_eats/app/src/main/res/drawable/btn_background.xml" value="0.206" />
+        <entry key="..\:/Users/joowo/3rd_UMC_Android_C/DANA/week2/coupang_eats/app/src/main/res/drawable/don_xml.xml" value="0.2095" />
+        <entry key="..\:/Users/joowo/3rd_UMC_Android_C/DANA/week2/coupang_eats/app/src/main/res/drawable/menu_item.xml" value="0.202" />
+        <entry key="..\:/Users/joowo/3rd_UMC_Android_C/DANA/week2/coupang_eats/app/src/main/res/layout/search_mara.xml" value="0.12132725430597771" />
+        <entry key="..\:/Users/joowo/3rd_UMC_Android_C/DANA/week2/coupang_eats/app/src/main/res/layout/search_menu.xml" value="0.21739130434782608" />
+        <entry key="..\:/Users/joowo/3rd_UMC_Android_C/DANA/week2/coupang_eats/app/src/main/res/layout/select_menu.xml" value="0.22418478260869565" />
+        <entry key="..\:/Users/joowo/3rd_UMC_Android_C/DANA/week2/coupang_eats/app/src/main/res/layout/store_view.xml" value="0.21739130434782608" />
+        <entry key="..\:/Users/joowo/coupang_eats/app/src/main/res/drawable-v24/location.xml" value="0.322" />
+        <entry key="..\:/Users/joowo/coupang_eats/app/src/main/res/drawable/array.xml" value="0.322" />
+        <entry key="..\:/Users/joowo/coupang_eats/app/src/main/res/drawable/arrow_back-48px.xml" value="0.322" />
+        <entry key="..\:/Users/joowo/coupang_eats/app/src/main/res/drawable/backBtn1.xml" value="0.322" />
+        <entry key="..\:/Users/joowo/coupang_eats/app/src/main/res/drawable/btn_back.xml" value="0.322" />
+        <entry key="..\:/Users/joowo/coupang_eats/app/src/main/res/drawable/btn_background.xml" value="0.322" />
+        <entry key="..\:/Users/joowo/coupang_eats/app/src/main/res/drawable/btn_circle.xml" value="0.2565" />
+        <entry key="..\:/Users/joowo/coupang_eats/app/src/main/res/drawable/btn_radio.xml" value="0.2565" />
+        <entry key="..\:/Users/joowo/coupang_eats/app/src/main/res/drawable/btn_search.xml" value="0.308" />
+        <entry key="..\:/Users/joowo/coupang_eats/app/src/main/res/drawable/btn_share.xml" value="0.2565" />
+        <entry key="..\:/Users/joowo/coupang_eats/app/src/main/res/drawable/btn_trans.xml" value="0.2565" />
+        <entry key="..\:/Users/joowo/coupang_eats/app/src/main/res/drawable/chick_xml.xml" value="0.308" />
+        <entry key="..\:/Users/joowo/coupang_eats/app/src/main/res/drawable/china_xml.xml" value="0.2695" />
+        <entry key="..\:/Users/joowo/coupang_eats/app/src/main/res/drawable/don_xml.xml" value="0.308" />
+        <entry key="..\:/Users/joowo/coupang_eats/app/src/main/res/drawable/etxt_background.xml" value="0.322" />
+        <entry key="..\:/Users/joowo/coupang_eats/app/src/main/res/drawable/fish_xml.xml" value="0.2355" />
+        <entry key="..\:/Users/joowo/coupang_eats/app/src/main/res/drawable/gu2_xml.xml" value="0.2" />
+        <entry key="..\:/Users/joowo/coupang_eats/app/src/main/res/drawable/home-40px.xml" value="0.2335" />
+        <entry key="..\:/Users/joowo/coupang_eats/app/src/main/res/drawable/japan_xml.xml" value="0.308" />
+        <entry key="..\:/Users/joowo/coupang_eats/app/src/main/res/drawable/kor_xml.xml" value="0.308" />
+        <entry key="..\:/Users/joowo/coupang_eats/app/src/main/res/drawable/menu_item.xml" value="0.2695" />
+        <entry key="..\:/Users/joowo/coupang_eats/app/src/main/res/drawable/more.xml" value="0.322" />
+        <entry key="..\:/Users/joowo/coupang_eats/app/src/main/res/drawable/navi_menu.xml" value="0.363" />
+        <entry key="..\:/Users/joowo/coupang_eats/app/src/main/res/drawable/new_xml.xml" value="0.322" />
+        <entry key="..\:/Users/joowo/coupang_eats/app/src/main/res/drawable/one_xml.xml" value="0.2695" />
+        <entry key="..\:/Users/joowo/coupang_eats/app/src/main/res/drawable/one_xnml.xml" value="0.308" />
+        <entry key="..\:/Users/joowo/coupang_eats/app/src/main/res/drawable/open_xml.xml" value="0.308" />
+        <entry key="..\:/Users/joowo/coupang_eats/app/src/main/res/drawable/pasta_xml.xml" value="0.2355" />
+        <entry key="..\:/Users/joowo/coupang_eats/app/src/main/res/drawable/pig_xml.xml" value="0.2695" />
+        <entry key="..\:/Users/joowo/coupang_eats/app/src/main/res/drawable/pizza_xml.xml" value="0.2695" />
+        <entry key="..\:/Users/joowo/coupang_eats/app/src/main/res/drawable/quick_xml.xml" value="0.156" />
+        <entry key="..\:/Users/joowo/coupang_eats/app/src/main/res/drawable/searchBtn.xml" value="0.322" />
+        <entry key="..\:/Users/joowo/coupang_eats/app/src/main/res/drawable/searchBtn1.xml" value="0.322" />
+        <entry key="..\:/Users/joowo/coupang_eats/app/src/main/res/drawable/selected.xml" value="0.1" />
+        <entry key="..\:/Users/joowo/coupang_eats/app/src/main/res/drawable/star-20px.xml" value="0.204" />
+        <entry key="..\:/Users/joowo/coupang_eats/app/src/main/res/drawable/star.xml" value="0.156" />
+        <entry key="..\:/Users/joowo/coupang_eats/app/src/main/res/drawable/tang_xml.xml" value="0.2695" />
+        <entry key="..\:/Users/joowo/coupang_eats/app/src/main/res/drawable/togo.xml" value="0.322" />
+        <entry key="..\:/Users/joowo/coupang_eats/app/src/main/res/drawable/togo_xml.xml" value="0.156" />
+        <entry key="..\:/Users/joowo/coupang_eats/app/src/main/res/drawable/tto_xml.xml" value="0.308" />
+        <entry key="..\:/Users/joowo/coupang_eats/app/src/main/res/layout/activity_main.xml" value="0.317481884057971" />
+        <entry key="..\:/Users/joowo/coupang_eats/app/src/main/res/layout/location.xml" value="0.3619791666666667" />
+        <entry key="..\:/Users/joowo/coupang_eats/app/src/main/res/layout/main.xml" value="0.3619791666666667" />
+        <entry key="..\:/Users/joowo/coupang_eats/app/src/main/res/layout/search_mara.xml" value="0.25" />
+        <entry key="..\:/Users/joowo/coupang_eats/app/src/main/res/layout/search_menu.xml" value="0.264" />
+        <entry key="..\:/Users/joowo/coupang_eats/app/src/main/res/layout/select_menu.xml" value="0.4" />
+        <entry key="..\:/Users/joowo/coupang_eats/app/src/main/res/layout/store.xml" value="0.3619791666666667" />
+        <entry key="..\:/Users/joowo/coupang_eats/app/src/main/res/layout/store_view.xml" value="0.264" />
+        <entry key="..\:/Users/joowo/coupang_eats/app/src/main/res/menu/cart.xml" value="0.3619791666666667" />
+        <entry key="..\:/Users/joowo/coupang_eats/app/src/main/res/menu/navi_menu.xml" value="0.3619791666666667" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

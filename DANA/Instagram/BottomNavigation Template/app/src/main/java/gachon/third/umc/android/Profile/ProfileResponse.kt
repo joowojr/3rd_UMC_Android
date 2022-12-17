@@ -1,0 +1,21 @@
+package gachon.third.umc.android
+
+data class ProfileResponse(
+    val isSuccess: Boolean,
+    val code: Int,
+    val message: String,
+    val result: ProfileResult
+)
+
+data class ProfileResult(
+    val userIdx: Int,
+    val userID: String,
+    val userName: String,
+    val userIntro: String,
+    val userWebsite: String,
+    val userProfileImg: String,
+    val postNum: Int,
+    val followerNum: Int,
+    val followingNum: Int
+)
+

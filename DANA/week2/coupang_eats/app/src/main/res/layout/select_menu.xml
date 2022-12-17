@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#00ff0000"
+            android:drawableLeft="@drawable/btn_back"
+            android:drawableTint="@color/white"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"/>
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#00ff0000"
+            android:drawableRight="@drawable/btn_share"
+            android:drawableTint="@color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+        />
+
+        <ImageView
+            android:id="@+id/menu_pic"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/menu1"
+            app:layout_constraintDimensionRatio="16:9"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+<!--
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/menu_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/menu_pic">
+-->
+
+            <TextView
+                android:id="@+id/menu_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:paddingTop="20dp"
+                android:paddingLeft="20dp"
+                android:text="꿔바로우"
+                android:textColor="#26313E"
+                android:textSize="21sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/menu_pic" />
+
+            <TextView
+                android:id="@+id/menu_des"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="20dp"
+                android:paddingBottom="20dp"
+                android:paddingLeft="20dp"
+                android:layout_marginBottom="15dp"
+                android:text="꿔바로우는 중량으로 하고있어 갯수가 변경될수 있습니다."
+                android:textSize="13sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/menu_name" />
+
+
+        <View
+            android:id="@+id/line"
+            android:layout_width="match_parent"
+            android:layout_height="4px"
+            android:background="#E2E2E2"
+            app:layout_constraintTop_toBottomOf="@id/menu_des"></View>
+
+            <TextView
+                android:id="@+id/menu_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="가격"
+                android:padding="20dp"
+                android:textColor="#26313E"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/line"/>
+
+            <TextView
+                android:id="@+id/val_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="11,500원"
+                android:padding="20dp"
+                android:textColor="#26313E"
+                android:textSize="15sp"
+                app:layout_constraintBottom_toBottomOf="@id/menu_price"
+                app:layout_constraintEnd_toEndOf="parent" />
+
+            <TextView
+                android:id="@+id/menu_qty"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:paddingLeft="20dp"
+                android:text="수량"
+                android:textColor="#26313E"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/menu_price" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_add"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/btn_circle"
+                android:text="+"
+                android:textColor="#A1A4A6"
+                app:layout_constraintBottom_toBottomOf="@id/menu_qty"
+                app:layout_constraintEnd_toEndOf="parent" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_sub"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:background="@drawable/btn_circle"
+                android:text="-"
+                android:textColor="#A1A4A6"
+                app:layout_constraintBottom_toBottomOf="@id/menu_qty"
+                app:layout_constraintEnd_toStartOf="@id/val_qty" />
+
+            <TextView
+                android:id="@+id/val_qty"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingBottom="5dp"
+                android:text="1"
+                android:textColor="#26313E"
+                android:textSize="14sp"
+                app:layout_constraintBottom_toBottomOf="@id/menu_qty"
+                app:layout_constraintEnd_toStartOf="@+id/btn_add" />
+
+    <LinearLayout
+        android:id="@+id/block"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/menu_qty">
+        <TextView
+            android:id="@+id/basic"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginTop="20dp"
+            android:text="기본"
+            android:textColor="#26313E"
+            android:background="@color/gray"
+            android:padding="25dp"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/menu_qty" />
+
+        <TextView
+            android:id="@+id/essential"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginTop="20dp"
+            android:text="필수 선택"
+            android:background="@color/gray"
+            android:padding="25dp"
+            android:textColor="#FB6C3D"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:gravity="right"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/menu_qty" />
+
+    </LinearLayout>
+
+            <RadioGroup
+                android:id="@+id/radio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingTop="20dp"
+                android:paddingLeft="20dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/block">
+
+                <RadioButton
+                    android:id="@+id/min"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="꿔바로우(소)  3~4조각" />
+
+                <RadioButton
+                    android:id="@+id/med"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="꿔바로우(중)  5~6조각"
+                    app:layout_constraintTop_toBottomOf="@id/min" />
+
+                <RadioButton
+                android:id="@+id/max"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="꿔바로우(대)  7~8조각"
+                app:layout_constraintTop_toBottomOf="@id/med" />
+                <RadioButton
+                    android:id="@+id/max"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="꿔바로우(대)  7~8조각"
+                    app:layout_constraintTop_toBottomOf="@id/med" />
+
+            </RadioGroup>
+
+        <TextView
+            android:id="@+id/extra1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toEndOf="@id/radio"
+            app:layout_constraintTop_toTopOf="@id/radio"
+            android:paddingTop="34dp"
+            android:paddingLeft="5dp"
+                android:text=" "/>
+        <TextView
+            android:id="@+id/extra2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toEndOf="@id/radio"
+            android:paddingTop="28dp"
+            app:layout_constraintTop_toBottomOf="@id/extra1"
+            android:paddingLeft="5dp"
+            android:text="(+ 4,500원)"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toEndOf="@id/radio"
+            android:paddingTop="28dp"
+            app:layout_constraintTop_toBottomOf="@id/extra2"
+            android:paddingLeft="5dp"
+            android:text="(+ 10,000원)"
+            />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>
+
+<com.google.android.material.bottomnavigation.BottomNavigationView
+android:id="@+id/bottomNavigationView"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+app:backgroundTint="@color/blue"
+app:itemTextColor="@color/white"
+app:layout_constraintBottom_toBottomOf="parent"
+app:menu="@menu/cart" />-
+</androidx.constraintlayout.widget.Constraints>

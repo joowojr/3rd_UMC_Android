@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/top_bar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:background="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="15dp"
+
+        >
+
+
+        <EditText
+            android:id="@+id/search_bar"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="15dp"
+            android:background="@drawable/etxt_background"
+            android:hint="먹고싶은 메뉴를 찾아보세요!"
+            android:textColorHint="@color/black"
+            android:textSize="15dp"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintHorizontal_chainStyle="packed"
+            app:layout_constraintHorizontal_weight="4"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toLeftOf="@+id/search_btn"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageButton
+            android:id="@+id/search_btn"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@android:color/transparent"
+            android:src="@drawable/btn_search"
+            app:layout_constraintBottom_toBottomOf="@id/search_bar"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_weight="1"
+            app:layout_constraintStart_toEndOf="@+id/search_bar"
+            app:layout_constraintTop_toTopOf="parent"
+            android:scaleType="fitCenter"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/top_bar"
+       >
+
+        <TableLayout
+            android:id="@+id/menu_grid"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            android:stretchColumns="0,1,2"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/top_bar">
+
+            <TableRow>
+
+                <Button
+                    android:adjustViewBounds="true"
+                    android:background="@android:color/transparent"
+                    android:drawableTop="@drawable/togo_xml"
+                    android:scaleType="centerInside"
+                    android:text="포장"
+                    android:textColor="@color/black" />
+
+                <Button
+                    android:background="@android:color/transparent"
+                    android:drawableTop="@drawable/open_xml"
+                    android:text="신규 맛집"
+                    android:textColor="@color/black" />
+
+                <Button
+                    android:background="@android:color/transparent"
+                    android:drawableTop="@drawable/one_xml"
+                    android:text="1인분"
+                    android:textColor="@color/black" />
+            </TableRow>
+
+            <TableRow>
+
+                <Button
+                    android:background="@android:color/transparent"
+                    android:drawableTop="@drawable/kor_xml"
+                    android:text="한식"
+                    android:textColor="@color/black" />
+
+                <Button
+                    android:background="@android:color/transparent"
+                    android:drawableTop="@drawable/chick_xml"
+                    android:text="치킨"
+                    android:textColor="@color/black" />
+
+                <Button
+                    android:background="@android:color/transparent"
+                    android:drawableTop="@drawable/tto_xml"
+                    android:text="분식"
+                    android:textColor="@color/black" />
+            </TableRow>
+
+            <TableRow>
+
+                <Button
+                    android:background="@android:color/transparent"
+                    android:drawableTop="@drawable/don_xml"
+                    android:text="돈까스"
+                    android:textColor="@color/black" />
+
+                <Button
+                    android:background="@android:color/transparent"
+                    android:drawableTop="@drawable/pig_xml"
+                    android:text="족발/보쌈"
+                    android:textColor="@color/black" />
+
+                <Button
+                    android:background="@android:color/transparent"
+                    android:drawableTop="@drawable/tang_xml"
+                    android:text="찜/탕"
+                    android:textColor="@color/black" />
+            </TableRow>
+
+            <TableRow>
+
+                <Button
+                    android:background="@android:color/transparent"
+                    android:drawableTop="@drawable/gu2_xml"
+                    android:text="구이"
+                    android:textColor="@color/black" />
+
+                <Button
+                    android:background="@android:color/transparent"
+                    android:drawableTop="@drawable/pizza_xml"
+                    android:text="피자"
+                    android:textColor="@color/black" />
+
+                <Button
+                    android:background="@android:color/transparent"
+                    android:drawableTop="@drawable/china_xml"
+                    android:text="중식"
+                    android:textColor="@color/black" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:background="@android:color/transparent"
+                    android:drawableTop="@drawable/japan_xml"
+                    android:text="일식"
+                    android:textColor="@color/black" />
+
+                <Button
+                    android:background="@android:color/transparent"
+                    android:drawableTop="@drawable/fish_xml"
+                    android:text="회/해물"
+                    android:textColor="@color/black" />
+
+                <Button
+                    android:background="@android:color/transparent"
+                    android:drawableTop="@drawable/pasta_xml"
+                    android:text="양식"
+                    android:textColor="@color/black" />
+            </TableRow>
+
+
+        </TableLayout>
+    </ScrollView>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:menu="@menu/navi_menu"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:background="?android:attr/windowBackground"
+        app:itemIconTint="@drawable/menu_item"
+        app:itemTextColor="@drawable/menu_item"
+        app:labelVisibilityMode="labeled"
+        />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

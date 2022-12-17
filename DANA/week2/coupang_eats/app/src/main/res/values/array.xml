@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <integer-array name="imgId">
+        <item>@drawable/mara_1</item>
+        <item>@drawable/mara_2</item>
+        <item>@drawable/mara_3</item>
+    </integer-array>
+
+
+    <string-array name="name">
+        <item>행복로드 마라탕 태평점</item>
+        <item>라공방 태평점</item>
+        <item>마라킹 태평점</item>
+    </string-array>
+
+    <string-array name="min">
+        <item>21-31분</item>
+        <item>23-33분</item>
+        <item>19-29분</item>
+    </string-array>
+</resources>
